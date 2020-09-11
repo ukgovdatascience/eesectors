@@ -64,18 +64,5 @@ figure3.1 <- function(x, ...) {
 
       return(p)
 
-      },
-    warning = function() {
-
-      w <- warnings()
-      warning('Warning produced running figure3.1():', w)
-
-    },
-    error = function(e)  {
-
-      stop('Error produced running figure3.1():', e)
-
-    },
-    finally = {}
-  )
+      })
 }
